@@ -62,7 +62,7 @@
 			<section class="order order__image">
 				<div class="container">
 					<h1 class="order__title">Effective Solutions for Your Business</h1>
-					<button type="button" class="order__button">Order Service</button>
+					<button type="button" class="button">Order Service</button>
 				</div>
 			</section>
 			<section class="feature section">
@@ -472,47 +472,71 @@
 			</div>
 		</footer>
 
-		<div class="modal">
-			<div class="modal__dialog">
+		<div class="backdrop">
+			<div class="modal">
 				<div class="modal__content">
-					<button class="modal__button_exit" />
-					<form action="#">
-						<h3 class="modal__title">
-							Leave your contacts and we will call you back
-						</h3>
+					<button class="button__close">
+						<svg class="modal_icon" width="8" height="8">
+							<use href="./images/icons.svg#icon-close"></use>
+						</svg>
+					</button>
+					<h3 class="modal__title">
+						Leave your contacts and we will call you back
+					</h3>
+					<form class="modal__form">
 						<label class="form-label">
-							Name
+							<p class="label__text">Name</p>
 							<input required name="name" type="text" class="modal__input" />
+							<svg class="modal__icon" width="16" height="16">
+								<use href="./images/icons.svg#icon-user"></use>
+							</svg>
 						</label>
 						<label class="form-label">
-							Phone
+							<p class="label__text">Phone</p>
+
 							<input required name="phone" type="tel" class="modal__input" />
-						</label>
-						<label>
-							Email
-							<input required name="email" type="email" class="modal__input" />
+							<svg class="modal__icon" width="16" height="16">
+								<use href="./images/icons.svg#icon-phone"></use>
+							</svg>
 						</label>
 						<label class="form-label">
-							Comment
-							<input
+							<p class="label__text">Email</p>
+
+							<input required name="email" type="email" class="modal__input" />
+							<svg class="modal__icon" width="16" height="16">
+								<use href="./images/icons.svg#icon-email"></use>
+							</svg>
+						</label>
+						<label class="form-label">
+							<p class="label__text">Comment</p>
+							<textarea
 								required
 								name="comment"
-								type="email"
-								class="modal__input"
-							/>
+								class="modal__comment"
+								placeholder="Text input"
+							></textarea>
 						</label>
 						<label class="form-label">
-							Comment
 							<input
 								required
 								name="accept"
 								type="checkbox"
-								class="modal__input"
+								class="modal__check visually-hidden"
 							/>
-							I accept the terms and conditions of the
-							<a href="">Privacy Policy</a>
+
+							<p class="modal_check_text">
+								I accept the terms and conditions of the
+								<a class="modal__link" href="">Privacy Policy</a>
+							</p>
+							<svg class="unchecked" width="16" height="16">
+								<use href="./images/icons.svg#icon-unchecked"></use>
+							</svg>
+							<svg class="checked visually-hidden" width="16" height="16">
+								<use href="./images/icons.svg#icon-checked"></use>
+							</svg>
 						</label>
-						<button class="modal__send">Send</button>
+
+						<button type="submit" class="button">Send</button>
 					</form>
 				</div>
 			</div>
