@@ -481,6 +481,42 @@ img {
 	background-color: var(--green);
 }
 
+.footer__items_social {
+	margin-right: 80px;
+}
+
+.subscribe__email {
+	width: 264px;
+	height: 40px;
+	border-radius: 4px;
+	border: 1px solid var(--white);
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+	background-color: transparent;
+	outline: none;
+	color: var(--white);
+	padding-left: 8px;
+}
+
+.subscribe__email::placeholder {
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 200%;
+	letter-spacing: 0.48px;
+	color: var(--white);
+}
+
+.subscribe__button {
+	width: 165px;
+	height: 40px;
+	display: inline-flex;
+	padding: 8px 24px;
+	justify-content: center;
+	align-items: center;
+	gap: 16px;
+	margin-left: 16px;
+}
+
 .backdrop {
 	position: fixed;
 	width: 100%;
