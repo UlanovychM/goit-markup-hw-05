@@ -722,7 +722,7 @@ img {
 	color: var(--light-grey);
 }
 
-.modal__check {
+.modal__item_check {
 	width: 16px;
 	height: 16px;
 	border: 1px solid rgba(46, 47, 66, 0.4);
@@ -747,7 +747,7 @@ img {
 	text-decoration-line: underline;
 }
 
-.modal__check.checked {
+.modal__check:checked {
 	background-color: var(--ocean);
 	border: none;
 	fill: var(--cloud);
