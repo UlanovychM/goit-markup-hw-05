@@ -748,7 +748,8 @@ img {
 	text-decoration-line: underline;
 }
 
-.modal__check:checked + .modal__item_check {
+.modal__check:checked,
+.modal__item_check {
 	background-color: var(--ocean);
 	border: none;
 	fill: var(--cloud);
