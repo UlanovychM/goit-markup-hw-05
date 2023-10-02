@@ -552,6 +552,7 @@ img {
 	visibility: visible;
 	transition: opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1),
 		visibility 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+	pointer-events: auto;
 }
 
 .modal {
@@ -686,7 +687,7 @@ img {
 	font-size: 12px;
 	font-style: normal;
 	font-weight: 400;
-	line-height: 116.667%;
+	line-height: 117%;
 	letter-spacing: 0.48px;
 	background-color: transparent;
 	color: rgba(46, 47, 66, 0.4);
