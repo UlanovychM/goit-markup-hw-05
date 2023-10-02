@@ -747,7 +747,7 @@ img {
 	text-decoration-line: underline;
 }
 
-input[type='checkbox']:checked + .modal__item_check {
+.modal__check:checked + .form-label_check > .modal__item_check {
 	background-color: var(--ocean);
 	border: none;
 	fill: var(--cloud);
