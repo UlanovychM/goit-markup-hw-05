@@ -747,7 +747,7 @@ img {
 	text-decoration-line: underline;
 }
 
-.checked {
+.modal__check.checked {
 	background-color: var(--ocean);
 	border: none;
 	fill: var(--cloud);
